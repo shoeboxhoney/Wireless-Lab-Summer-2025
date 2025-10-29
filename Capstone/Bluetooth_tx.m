@@ -1,5 +1,6 @@
 %% Generating Bluetooth Signal
 phyMode = 'LE1M';
+txGain = 50;
 
 cfgLLAdv = bleLLAdvertisingChannelPDUConfig(PDUType="Advertising indication", ...
     AdvertisingData="0123456789ABCDEF", ...
