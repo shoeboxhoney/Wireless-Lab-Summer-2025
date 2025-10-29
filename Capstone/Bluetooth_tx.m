@@ -39,7 +39,7 @@ txCenterFrequency = 2.402e9;        % In Hz
 txFrameLength = length(txWaveform);
 txNumberOfFrames = 1e4;
 txFrontEndSampleRate = sampleRate;
-
+txGain=50;
 
 try 
     usrp = findsdru;
